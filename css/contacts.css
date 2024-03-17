@@ -1,0 +1,36 @@
+.contacts {
+	padding: 150px 0 50px;
+}
+.contacts__inner {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.form {
+	background-color: #fff;
+	width: 664px;
+	padding: 72px 45px 67px;
+	box-shadow: 0 4px 11px 0 rgba(199, 175, 165, 0.3);
+}
+
+.form__title {
+	font-family: var(--title-font);
+	font-size: 40px;
+	margin-bottom: 60px;
+}
+.form__input {
+	border-bottom: 1px solid #000;
+	width: 100%;
+	display: block;
+	padding: 7px 10px;
+	margin-bottom: 15px;
+	color: #000;
+}
+.form__input::placeholder {
+	color: #b3b3b3;
+}
+.form__btn {
+	margin-top: 36px;
+	background-color: var(--btn-color);
+	padding: 17px 34px;
+}

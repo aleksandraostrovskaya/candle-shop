@@ -1,0 +1,30 @@
+.top {
+	padding-bottom: 150px;
+	padding-top: 40px;
+}
+.top__inner {
+	position: relative;
+}
+.top__content {
+	width: 370px;
+	padding: 150px 0 250px;
+}
+
+.top__title {
+	font-size: 30px;
+	font-family: var(--title-font);
+	margin-bottom: 15px;
+}
+.top__text {
+	margin-bottom: 48px;
+}
+.top__btn {
+	padding: 18px 54px;
+	background-color: var(--btn-color);
+	font-weight: 600;
+}
+.top__img {
+	position: absolute;
+	top: 0;
+	left: 240px;
+}

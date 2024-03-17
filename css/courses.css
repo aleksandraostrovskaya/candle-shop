@@ -1,0 +1,33 @@
+.courses__item-img {
+	position: relative;
+	color: #fff;
+	font-size: 11px;
+	font-family: var(--title-font);
+	margin-bottom: 28px;
+}
+
+.courses__title {
+	padding: 15px;
+	position: absolute;
+	background-color: var(--beige);
+	left: 10px;
+	top: 45%;
+}
+.courses__time {
+	padding: 7px 10px;
+	background-color: var(--beige);
+	position: absolute;
+	left: 10px;
+	top: 60%;
+}
+.courses__time span {
+	font-size: 10px;
+	font-family: var(--text-font);
+}
+.courses__price {
+	padding: 19px 10px;
+	background-color: var(--beige);
+	position: absolute;
+	right: -3px;
+	bottom: -5px;
+}
